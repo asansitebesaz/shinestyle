@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+
+
+
+
+
 body {
   font-style: normal;
   line-height: 1.5;
@@ -14,35 +20,35 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Yekan';
+  font-family: 'Rubik', sans-serif;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Yekan';
+  font-family: 'Rubik', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'Yekan';
+  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Yekan';
+  font-family: 'Rubik', sans-serif;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Yekan';
+  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
@@ -652,7 +658,7 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Yekan';
+  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
@@ -1407,50 +1413,28 @@ body {
   background: #ff3366 !important;
   box-shadow: none !important;
 }
-.cid-ryVWTupMjf {
-  padding-top: 240px;
-  padding-bottom: 0px;
-  background-image: url("../../../assets/images/matt-le-2000x1333.jpg");
+.cid-rz25gxypKr {
+  background-image: url("../../../assets/images/background4.jpg");
 }
-.cid-ryVWTupMjf .mbr-figure {
-  margin: 0;
-  width: 70%;
-  display: -webkit-flex;
+.cid-rz25gxypKr .form-control,
+.cid-rz25gxypKr .form-control:focus {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+.cid-rz25gxypKr .form-container {
+  transition: all .2s;
+  border: 1px solid #ffffff;
+  padding: 1rem;
+}
+.cid-rz25gxypKr textarea.form-control {
+  min-height: 188px;
+}
+.cid-rz25gxypKr .input-group-btn {
   justify-content: center;
   -webkit-justify-content: center;
 }
-.cid-ryVWTupMjf .mbr-figure img {
-  height: 100%;
-  margin: 0 auto;
-}
-@media (max-width: 991px) {
-  .cid-ryVWTupMjf .mbr-figure img {
-    width: 100% !important;
-  }
-}
-.cid-ryVWTupMjf H3 {
-  color: #767676;
-}
-.cid-ryVWTupMjf .mbr-text,
-.cid-ryVWTupMjf .mbr-section-btn {
-  color: #232323;
-}
-.cid-ryVWTWpaaX {
-  background-image: url("../../../assets/images/background4.jpg");
-}
-
-@media (max-width: 991px) {
-  #header4-y .mbr-figure img,
-  #header4-y .mbr-figure video {
-    width: 100% !important;
-  }
-
-@media (max-width: 550px) {
-  #header4-y .hideformobile {
-    display: none;
-  }
-
-  .cid-ryVWTupMjf .hideformobile {
-    display: none !important;
+@media (min-width: 768px) {
+  .cid-rz25gxypKr .content-container {
+    padding-right: 5rem;
   }
 }
