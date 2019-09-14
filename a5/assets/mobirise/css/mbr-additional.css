@@ -3040,6 +3040,7 @@ body {
   background: #333333;
   transition: none;
   min-height: 77px;
+  direction: ltr;
 }
 .cid-rAnsDICJtH .navbar-dropdown.bg-color.transparent.opened {
   background: #333333;
